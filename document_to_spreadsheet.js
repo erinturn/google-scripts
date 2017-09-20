@@ -3,6 +3,7 @@
 // 2) Copies specific text in a document - anything that appears below the word "EMAIL" and has a bracket "[" in the line of text
 // 3) Pastes that text into the copied goole sheet
 // 4) Replaces "<<Insert Link>>" in the document with the link to the google sheet
+// 5) Formats the sheet to title columns for each language/translation
 
 function onOpen() {
 // Add a custom menu to the Google Doc so you can run the script below without opening the script editor
