@@ -1,3 +1,9 @@
+// This script does the following:
+// 1) Makes a copy of an existing google sheet (insert ID for it below <DOC_ID_GOES_HERE>) and renames it
+// 2) Copies specific text in a document - anything that appears below the word "EMAIL" and has a bracket "[" in the line of text
+// 3) Pastes that text into the copied goole sheet
+// 4) Replaces "<<Insert Link>>" in the document with the link to the google sheet
+
 function onOpen() {
 // Add a custom menu to the Google Doc so you can run the script below without opening the script editor
 DocumentApp.getUi()
