@@ -7,8 +7,8 @@ This repo contains Google Apps Scripts that have been used to automate various t
 - <a href="https://developers.google.com/apps-script/reference/calendar/">Documentation on the variables available</a>
 
 ## Types of Automation Included
-- Automatically make a copy of a spreadsheet, copy select text from a document into it, and format spreadsheet
-- Re-format a spreadsheet with translations for several use cases
-- Search a spreadsheet for certain keywords and replace with specified strings of text
-- Copy text from a document, make a Trello card, and insert the text into it
-- Send an email to specific people with preformatted message and link to spreadsheet
+- Make a copy of a spreadsheet, copy certain text from a document into it, and format spreadsheet to your specifications (<a href="https://github.com/erinturn/google-scripts/blob/master/document_to_spreadsheet.js">document_to_spreadsheet.js</a>)
+- Re-format a spreadsheet with translations into a three column format (<a href="https://github.com/erinturn/google-scripts/blob/master/translations_to_table.js">translations_to_table.js</a>)
+- Search a spreadsheet for certain keywords and replace with specified strings of text (<a href="https://github.com/erinturn/google-scripts/blob/master/find_and_replace.js">find_and_replace.js</a>)
+- Copy text from a document, make a Trello card, and insert the text into it (<a href="https://github.com/erinturn/google-scripts/blob/master/document_to_trello.js">document_to_trello.js</a>)
+- Send an email to specific people from a spreadsheet with a preformatted message (<a href="https://github.com/erinturn/google-scripts/blob/master/email_from_sheet.js">email_from_sheet.js</a>)
