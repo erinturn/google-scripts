@@ -1,5 +1,7 @@
 # Automation with Google Scripts
-This repo contains Google Apps Scripts that have been used to automate various tasks that use Google Apps and/or Trello. All code is written in Google Apps Script, a form of Javascript, that is compatible with the Google Apps (Docs, Spreadsheets, etc.).
+Do you spend time on mundane, repetitive tasks in Google Docs, Sheets, etc.? Automate them!
+
+This repo contains example Google Apps Scripts (a form of Javascript) that will help you automate tasks within Google Apps and other platforms (connected via API). 
 
 ## Setting up Google Apps Scripts
 - <a href="https://www.google.com/script/start/">Intro to Google Scripts</a>
